@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenge-5</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Nav bar start -->
+  <section class="flex justify-center align-items-center flex-wrap m-4">
+    <button class="bg-sky-600 hover:bg-sky-700 py-3 px-4 rounded-lg m-2 md:m-4 text-slate-50" id="challenge1">
+      Challenge - 1
+    </button>
+    <button class="bg-sky-600 hover:bg-sky-500 py-3 px-4 rounded-lg m-2 md:m-4 text-slate-50" id="challenge2">
+      Challenge - 2
+    </button>
+    <button class="bg-sky-600 hover:bg-sky-700 py-3 px-4 rounded-lg m-2 md:m-4 text-slate-50" id="challenge3">
+      Challenge - 3
+    </button>
+    <button class="bg-sky-600 hover:bg-sky-500 py-3 px-4 rounded-lg m-2 md:m-4 text-slate-50" id="challenge4">
+      Challenge - 4
+    </button>
+    <button class="bg-sky-600 hover:bg-sky-700 py-3 px-4 rounded-lg m-2 md:m-4 text-slate-50" id="challenge5">
+      Challenge - 5
+    </button>
+  </section>
+  <!-- Display data -->
+  <section>
+    <div>
+      <div class="w-3/4 mx-auto text-center mt-10">
+        <div class="rounded-lg bg-sky-200 border shadow-lg shadow-sky-100">
+          <p id="showTextQuotes" class="m-10 text-4xl font-bold text-lime-900"></p>
+        </div>
+        <button id="clickBtn" class="bg-blue-600 hover:bg-blue-700 py-3 px-4 rounded-lg text-white m-10">Click
+          here</button>
+      </div>
+      <div class="flex justify-items-center justify-center">
+        <input
+          class="shadow-md shadow-gray-300 hover:shadow-gray-200 border border-slate-100 rounded-lg w-1/4 h-8 px-2 py-5 m-2"
+          type="text" placeholder="Search the Quotes" id="inputField">
+        <button id="searchBtn"
+          class="bg-gray-200 px-5 rounded-lg text-stone-900 shadow-lg shadow-gray-200 hover:shadow-gray-100">Search
+          !!!</button>
+      </div>
+      <div id="searchTextQuotes"></div>
+    </div>
+  </section>
+  <!-- Nav bar END -->
+  <script src="./script5.js"></script>
+</body>
+
+</html>
